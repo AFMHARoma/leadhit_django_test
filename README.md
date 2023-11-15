@@ -20,10 +20,10 @@
 
 ### Установка проекта с помощью docker-compose
 
-1. Клонировать репозиторий с Github
+1. Клонировать репозиторий с GitHub
 
 ```
-git clone git@github.com:AFMHARoma/leadhit_django_test.git
+git clone https://github.com/AFMHARoma/leadhit_django_test.git
 ```
 
 2. Перейти в директорию проекта
@@ -34,7 +34,7 @@ git clone git@github.com:AFMHARoma/leadhit_django_test.git
 docker-compose up -d
  ```
 
-5. Остановка работы/удаление контейнеров
+4. Остановка работы/удаление контейнеров
 
 ```
 docker-compose stop
@@ -45,13 +45,25 @@ docker-compose down
 
 ***
 
-### Тестовый скрипт
+### Запуск тестового скрипта
 
-1. Установка зависимостей тестового скрипта
+1. Создать виртуальное окружение:
+
+````
+python -m venv venv
+````
+
+2. Активировать окружение:
+
+````
+source \venv\bin\activate
+````
+
+3. Установка зависимостей тестового скрипта
 ``` 
 pip install -r test-requirements.txt
 ```
-2. Запуск тестового скрипта
+4. Запуск скрипта
 ``` 
 python test_script.py
 ```
