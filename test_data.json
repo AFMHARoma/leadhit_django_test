@@ -1,0 +1,56 @@
+{
+    "valid_without_exact_form_return_best": [
+        {
+            "User_name": "Abobus456",
+            "User_registered": "2023-11-13",
+            "User_email": "abobus456@mail.ru"
+        },
+        {
+            "User_name": "Abobus456",
+            "User_phone": "+7 999 123 45 67",
+            "User_email": "abobus456@mail.ru",
+            "User_father": "Vasily"
+        }
+    ],
+
+    "valid_with_exact_form": [
+        {
+            "User_name": "Abobus456",
+            "User_phone": "7 999 123 45 67",
+            "User_email": "abobus456@mail.ru",
+            "User_last_activity": "15.11.2023",
+            "User_registered": "13.11.2023"
+        },
+        {
+            "User_name": "Abobus456",
+            "User_email": "abobus456@mail.ru"
+        }
+    ],
+
+    "invalid_params_return_validation": [
+        {
+            "Who": "Abobus456",
+            "Phone": "8 999 123 45 67",
+            "Mail": "abobus456@mail.ru"
+        },
+        {
+            "User_email": "abobus456@yandex.ru",
+            "f_name1": "Hello, is it me you looking for?",
+            "f_name2": "+7 917 123 45 67"
+        }
+    ],
+    "invalid_types_return_validation": [
+        {
+            "User_name": "2023-11-15",
+            "User_registered": "yesterday",
+            "User_email": "7 917 123 45 67"
+        },
+        {
+            "User_name": "15.11.2023",
+            "User_phone": "Nokia 3310",
+            "User_email": "Yandex",
+            "User_last_activity": "today",
+            "User_registered": "yesterday"
+        }
+    ]
+}

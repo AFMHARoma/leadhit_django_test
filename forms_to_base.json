@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Registration",
+    "fields": [
+      {
+        "name_field": "User_email",
+        "type_field": "email"
+      },
+      {
+        "name_field": "User_phone",
+        "type_field": "phone"
+      },
+      {
+        "name_field": "User_name",
+        "type_field": "text"
+      }
+    ]
+  },
+  {
+    "name": "News_subscription",
+    "fields": [
+      {
+        "name_field": "User_email",
+        "type_field": "email"
+      },
+      {
+        "name_field": "User_name",
+        "type_field": "text"
+      }
+    ]
+  },
+  {
+    "name": "Getting_profile_info",
+    "fields": [
+      {
+        "name_field": "User_email",
+        "type_field": "email"
+      },
+      {
+        "name_field": "User_phone",
+        "type_field": "phone"
+      },
+      {
+        "name_field": "User_name",
+        "type_field": "text"
+      },
+      {
+        "name_field": "User_last_activity",
+        "type_field": "date"
+      },
+      {
+        "name_field": "User_registered",
+        "type_field": "date"
+      }
+    ]
+  },
+  {
+    "name": "Activity_checking",
+    "fields": [
+      {
+        "name_field": "User_email",
+        "type_field": "email"
+      },
+      {
+        "name_field": "User_phone",
+        "type_field": "phone"
+      },
+      {
+        "name_field": "User_last_activity",
+        "type_field": "date"
+      }
+    ]
+  }
+]
